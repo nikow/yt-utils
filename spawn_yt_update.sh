@@ -6,6 +6,7 @@ if [ -z $@ ]; then
     echo "Usage: $0 <link>"
     echo ""
     echo "Where link you can pass every link able to pass to youtube-dl. It mean not only YT links!"
+    echo "It will spawn your "yt repo file", just start ./update and when you have yt in your path, it will start downloading repo. Later it will update it."
     exit 0
 fi
 
