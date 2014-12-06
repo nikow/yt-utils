@@ -11,3 +11,4 @@ fi
 
 set -x
 youtube-dl -i --write-description -v --no-check-certificate --write-sub --all-subs $@ 
+exit 0
