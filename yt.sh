@@ -1,6 +1,6 @@
 #/bin/bash
 #set -x
-#set -e
+set -e
 
 if [ -z $@ ]; then
     echo "Usage: $0 <link>"
