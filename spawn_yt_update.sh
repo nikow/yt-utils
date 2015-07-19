@@ -11,7 +11,7 @@ if [ -z $@ ]; then
 fi
 
 if [ -f update.sh ]; then
-    echo "update.sh allready exists, you can not spawn new update.sh file"
+    echo "update.sh already exists, you can not spawn new update.sh file"
     echo "Appending new links to existing spawner will be added later"
     exit 1
 fi
